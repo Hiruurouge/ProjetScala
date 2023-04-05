@@ -1,3 +1,5 @@
 src/main/assets
 .idea
 target
+.vscode
+.metals
