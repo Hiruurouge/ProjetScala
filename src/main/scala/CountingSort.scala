@@ -18,18 +18,39 @@ object CountingSort {
       minVal = math.min(minVal, value)
     })
 
-    val pw = new PrintWriter(new File("./src/main/assets/output.txt"))
+    val outputFile = new File("./src/main/assets/output.txt")
+    outputFile.delete()
+    val pw = new PrintWriter(outputFile)
 
     // Recursively sort the values
     @tailrec
     def sortValues(currentVal: Int, maxValue: Int): Unit = {
       if (currentVal <= maxValue) {
         val count = counts.getOrElse(currentVal, 0)
-        for (elem <- List.fill(count)(currentVal)) {pw.println(elem)}
+        for (elem <- List.fill(count)(currentVal)) {
+          pw.println(elem)
+        }
         sortValues(currentVal + 1, maxValue)
       }
     }
+
+    sortValues(minVal, maxVal)
     pw.close()
     input.close()
+  }
+  def radixSort(filename: String): Unit = {
+    val numDigits = 10
+    (0 until numDigits).foreach(i => {
+      countingSortRecursive(filename)
+      val input = Source.fromFile("./src/main/assets/output.txt")
+      val output = new PrintWriter(new File("fin.txt"))
+      input.getLines.foreach(line => {
+        val value = line.toInt
+        val padded = "%010d".format(value)
+        output.println(padded)
+      })
+      output.close()
+      input.close()
+    })
   }
 }
