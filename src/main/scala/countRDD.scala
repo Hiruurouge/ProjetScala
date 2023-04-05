@@ -1,5 +1,7 @@
 import org.apache.spark.{SparkConf, SparkContext}
 
+import java.io.{File, PrintWriter}
+
 object countRDD {
   def countingSortSpark(filename: String): Unit = {
     val conf = new SparkConf().setAppName("Counting Sort with Spark").setMaster("local[*]")
@@ -9,10 +11,12 @@ object countRDD {
 
     val countsRdd = rdd.map(elem => (elem, 1)).reduceByKey(_ + _).sortByKey()
 
-    val sortedArr = countsRdd.flatMap { case (elem, count) => Array.fill(count)(elem) }
+    val sortedArr = countsRdd.flatMap { case (elem, count) => Array.fill(count)(elem) }.collect()
 
-    sortedArr.saveAsTextFile("./src/main/assets/output.txt")
+    val pw = new PrintWriter(new File("./src/main/assets/output.txt"))
 
+    pw.println(sortedArr.mkString(" "))
+    pw.close()
     sc.stop()
   }
 }
