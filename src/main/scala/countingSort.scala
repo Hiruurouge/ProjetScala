@@ -18,26 +18,17 @@ object CountingSort {
       minVal = math.min(minVal, value)
     })
 
+    val pw = new PrintWriter(new File("./src/main/assets/output.txt"))
+
     // Recursively sort the values
-    def sortValues(values: List[Int], currentVal: Int, maxValue: Int): List[Int] = {
-      if (currentVal > maxValue) {
-        values
-      } else {
+    @tailrec
+    def sortValues(currentVal: Int, maxValue: Int): Unit = {
+      if (currentVal <= maxValue) {
         val count = counts.getOrElse(currentVal, 0)
-        val nextValues = values ::: List.fill(count)(currentVal)
-        sortValues(nextValues, currentVal + 1, maxValue)
+        for (elem <- List.fill(count)(currentVal)) {pw.println(elem)}
+        sortValues(currentVal + 1, maxValue)
       }
     }
-
-    // Convert lines to a list of integers
-    val integers = lines.map(_.toInt).toList
-
-    // Second pass to sort the values
-    val sortedValues = sortValues(List.empty[Int], minVal, maxVal)
-
-    // Write the sorted values to a file
-    val pw = new PrintWriter(new File("./src/main/assets/output.txt"))
-    sortedValues.foreach(value => pw.println(value))
     pw.close()
     input.close()
   }
