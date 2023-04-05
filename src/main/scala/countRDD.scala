@@ -1,6 +1,6 @@
 import org.apache.spark.{SparkConf, SparkContext}
 
-object CountRDD {
+object countRDD {
   def countingSortSpark(filename: String): Unit = {
     val conf = new SparkConf().setAppName("Counting Sort with Spark").setMaster("local[*]")
     val sc = new SparkContext(conf)
