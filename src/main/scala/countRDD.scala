@@ -9,9 +9,9 @@ object countRDD {
 
     val countsRdd = rdd.map(elem => (elem, 1)).reduceByKey(_ + _).sortByKey()
 
-    val sortedArr = (countsRdd.flatMap { case (elem, count) => Array.fill(count)(elem) }).collect()
+    val sortedArr = countsRdd.flatMap { case (elem, count) => Array.fill(count)(elem) }
 
-    println(sortedArr.mkString(", "))
+    sortedArr.saveAsTextFile("./src/main/assets/output.txt")
 
     sc.stop()
   }
