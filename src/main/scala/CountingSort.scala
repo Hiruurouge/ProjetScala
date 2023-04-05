@@ -29,6 +29,7 @@ object CountingSort {
         sortValues(currentVal + 1, maxValue)
       }
     }
+    sortValues(minVal,maxVal)
     pw.close()
     input.close()
   }
