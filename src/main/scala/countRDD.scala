@@ -21,20 +21,21 @@ object countRDD {
   def radixSort(filename: String, numDigits: Int, sc: SparkContext): Unit = {
 
     (0 until numDigits).foreach(i => {
-      //countingSortSpark(filename, content => writeToFile("./src/main/assets/output.txt", content), sc)
       val rdd1 = sc.textFile(filename).flatMap(_.split(" ")).map(_.toInt)
       val countsRdd = rdd1.map(elem => (elem, 1)).reduceByKey(_ + _).sortByKey()
       val sortedArr = countsRdd.flatMap { case (elem, count) => Array.fill(count)(elem) }.collect()
       writeToFile("./src/main/assets/output.txt", sortedArr.mkString(" "))
       val rdd = sc.textFile("./src/main/assets/output.txt")
       val output = new PrintWriter(new File("fin.txt"))
-
-      rdd.flatMap(_.split(" "))
-        .map(_.toInt)
-        .map(elem => ("%0" + numDigits + "d").format(elem))
-        .foreach(output.println)
-
-      output.close()
+      rdd.mapPartitions { partition =>
+        val output = new PrintWriter(new File("fin.txt"))
+        partition.flatMap(_.split(" "))
+          .map(_.toInt)
+          .map(elem => ("%0" + numDigits + "d").format(elem))
+          .foreach(output.println)
+        output.close()
+        Iterator.empty
+      }.count()
     })
   }
 }
