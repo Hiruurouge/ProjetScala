@@ -4,7 +4,7 @@ object Main {
   def main(args: Array[String]): Unit = {
 
     //RadixCountingSort.radixSort("./src/main/assets/10Mega.txt")
-    RadixCountingSortSpark.radixSort("./src/main/assets/10Mega.txt")
+    RadixRDD.radixSort("./src/main/assets/test.txt",500)
     //println(args.length)
   }
 }

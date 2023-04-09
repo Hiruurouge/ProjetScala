@@ -1,42 +1,59 @@
 import org.apache.spark.{SparkConf, SparkContext}
+import scala.annotation.tailrec
 import scala.collection.mutable.ArrayBuffer
+import scala.math._
 
-object RadixCountingSortSpark {
+object RadixRDD {
+  def radixSort(inputFilename: String, maximum: Int): Unit = {
+    val outputFilename = "outputDigit0.txt"
+    val maxDigit = if (maximum == 0) 1 else floor(log10(abs(maximum)) + 1).toInt
 
-  def countingSort(inputRdd: org.apache.spark.rdd.RDD[Int], exp: Int): org.apache.spark.rdd.RDD[Int] = {
-    val base = 10
-    val count = inputRdd.map(number => ((number / exp) % base, 1)).reduceByKey(_ + _).collect().sorted
-    val prefixSum = count.scanLeft((0, 0)) { case ((_, acc), (k, v)) => (k, acc + v) }.drop(1)
+    @tailrec
+    def countingSort(inputFilename: String, outputFilename: String, digit: Int): Unit = {
+      if (digit != maxDigit) {
+        val conf = new SparkConf().setAppName("Radix Counting Sort")
+        val sc = new SparkContext(conf)
+        val base = 10
+        val exp = pow(base, digit).toInt
 
-    val outputRdd = inputRdd.map(number => {
-      val index = (number / exp) % base
-      val position = prefixSum.find(_._1 == index).map(_._2).getOrElse(0)
-      (position, number)
-    })
+        val numbers = sc.textFile(inputFilename)
+          .flatMap(_.split(' '))
+          .filter(_ != "")
+          .map(_.toInt)
+          .cache()
 
-    outputRdd.sortByKey().values
-  }
+        val count = numbers
+          .map(number => ((number / exp) % base, 1))
+          .reduceByKey(_ + _)
+          .collect()
+          .sortBy(_._1)
+          .map(_._2)
 
-  def radixSort(inputFileName: String): Unit = {
-    val outputFileName = "spark_output.txt"
-    val conf = new SparkConf().setAppName("RadixCountingSortSpark").setMaster("local[*]")
-    val sc = new SparkContext(conf)
+        for (i <- 1 until count.length) {
+          count(i) += count(i - 1)
+        }
 
-    val inputRdd = sc.textFile(inputFileName).flatMap(_.split(" ")).map(_.toInt)
-    val max = 500
-    val maxExp = 3
+        val outputArray = new Array[Int](numbers.count.toInt)
+        numbers.collect().reverse.foreach { number =>
+          val index = (number / exp) % base
+          count(index) -= 1
+          outputArray(count(index)) = number
+        }
 
-    var exp = 1
-    var sortedRdd = inputRdd
+        val printWriter = new java.io.PrintWriter(new java.io.FileWriter(outputFilename))
 
-    for (_ <- 1 to maxExp) {
-      sortedRdd = countingSort(sortedRdd, exp)
-      exp *= 10
+        outputArray.foreach { number =>
+          printWriter.print(s"$number ")
+        }
+        printWriter.flush()
+        printWriter.close()
+
+        sc.stop()
+
+        countingSort(outputFilename, s"outputDigit${digit + 1}.txt", digit + 1)
+      }
     }
 
-    val outputData = sortedRdd.collect().mkString(" ")
-    import java.nio.file.{Files, Paths}
-    Files.write(Paths.get(outputFileName), outputData.getBytes)
-    sc.stop()
+    countingSort(inputFilename, outputFilename, 0)
   }
 }
