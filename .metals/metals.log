@@ -186,3 +186,665 @@ Exception in thread "pool-3-thread-2" java.lang.InterruptedException
 Apr 05, 2023 6:47:03 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
 AVERTISSEMENT: Unmatched cancel notification for request id 361
 2023.04.05 18:47:05 WARN  no build target for: \\wsl.localhost\Ubuntu-22.04\home\joel\ProjetScala\src\main\scala\countRDD.scala
+2023.04.05 18:53:52 WARN  no build target for: \\wsl.localhost\Ubuntu-22.04\home\joel\ProjetScala\src\main\scala\Main.scala
+Apr 05, 2023 6:54:08 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 448
+2023.04.05 18:54:12 WARN  no build target for: \\wsl.localhost\Ubuntu-22.04\home\joel\ProjetScala\src\main\scala\CountingSort.scala
+2023.04.05 18:54:24 WARN  no build target for: \\wsl.localhost\Ubuntu-22.04\home\joel\ProjetScala\src\main\scala\CountingSort.scala
+2023.04.05 18:54:31 WARN  no build target for: \\wsl.localhost\Ubuntu-22.04\home\joel\ProjetScala\src\main\scala\CountingSort.scala
+2023.04.05 18:54:40 WARN  no build target for: \\wsl.localhost\Ubuntu-22.04\home\joel\ProjetScala\src\main\scala\CountingSort.scala
+2023.04.05 18:54:54 WARN  no build target for: \\wsl.localhost\Ubuntu-22.04\home\joel\ProjetScala\src\main\scala\Main.scala
+Apr 05, 2023 6:56:03 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 700
+2023.04.05 18:56:29 WARN  no build target for: \\wsl.localhost\Ubuntu-22.04\home\joel\ProjetScala\src\main\scala\Main.scala
+2023.04.05 18:56:50 WARN  no build target for: \\wsl.localhost\Ubuntu-22.04\home\joel\ProjetScala\src\main\scala\Main.scala
+Apr 05, 2023 6:56:55 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 812
+Exception in thread "pool-3-thread-3" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:195)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Unknown Source)
+2023.04.05 18:57:14 WARN  no build target for: \\wsl.localhost\Ubuntu-22.04\home\joel\ProjetScala\src\main\scala\Main.scala
+2023.04.05 18:57:19 WARN  no build target for: \\wsl.localhost\Ubuntu-22.04\home\joel\ProjetScala\src\main\scala\Main.scala
+Apr 05, 2023 6:57:20 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 912
+Apr 05, 2023 6:57:53 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 917
+Apr 05, 2023 6:57:58 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 926
+2023.04.05 18:58:04 WARN  no build target for: \\wsl.localhost\Ubuntu-22.04\home\joel\ProjetScala\src\main\scala\Main.scala
+2023.04.05 18:58:05 WARN  no build target for: \\wsl.localhost\Ubuntu-22.04\home\joel\ProjetScala\src\main\scala\Main.scala
+2023.04.05 18:58:49 WARN  no build target for: \\wsl.localhost\Ubuntu-22.04\home\joel\ProjetScala\src\main\scala\Main.scala
+2023.04.05 18:59:47 WARN  Using indexes to guess the definition of countingSort
+Exception in thread "pool-3-thread-4" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:195)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Unknown Source)
+Exception in thread "pool-3-thread-5" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:195)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Unknown Source)
+Exception in thread "pool-3-thread-6" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:195)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Unknown Source)
+2023.04.05 18:59:51 WARN  no build target for: \\wsl.localhost\Ubuntu-22.04\home\joel\ProjetScala\src\main\scala\Main.scala
+2023.04.05 18:59:53 WARN  no build target for: \\wsl.localhost\Ubuntu-22.04\home\joel\ProjetScala\src\main\scala\Main.scala
+2023.04.05 19:01:00 WARN  no build target for: \\wsl.localhost\Ubuntu-22.04\home\joel\ProjetScala\src\main\scala\Main.scala
+Apr 05, 2023 7:04:50 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 1095
+Apr 05, 2023 7:04:56 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 1108
+2023.04.05 19:05:09 WARN  no build target for: \\wsl.localhost\Ubuntu-22.04\home\joel\ProjetScala\src\main\scala\CountingSort.scala
+2023.04.05 19:05:09 WARN  no build target for: \\wsl.localhost\Ubuntu-22.04\home\joel\ProjetScala\src\main\scala\CountingSort.scala
+2023.04.05 19:05:09 WARN  no build target for: \\wsl.localhost\Ubuntu-22.04\home\joel\ProjetScala\src\main\scala\CountingSort.scala
+2023.04.05 19:05:09 WARN  no build target for: \\wsl.localhost\Ubuntu-22.04\home\joel\ProjetScala\src\main\scala\CountingSort.scala
+2023.04.05 19:06:19 WARN  no build target for: \\wsl.localhost\Ubuntu-22.04\home\joel\ProjetScala\src\main\scala\CountingSort.scala
+Exception in thread "pool-3-thread-7" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:195)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Unknown Source)
+Exception in thread "pool-3-thread-8" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:195)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Unknown Source)
+2023.04.05 19:08:33 WARN  no build target for: \\wsl.localhost\Ubuntu-22.04\home\joel\ProjetScala\src\main\scala\CountingSort.scala
+2023.04.05 19:08:33 WARN  no build target for: \\wsl.localhost\Ubuntu-22.04\home\joel\ProjetScala\src\main\scala\CountingSort.scala
+2023.04.05 19:08:33 WARN  no build target for: \\wsl.localhost\Ubuntu-22.04\home\joel\ProjetScala\src\main\scala\CountingSort.scala
+2023.04.05 19:08:33 WARN  no build target for: \\wsl.localhost\Ubuntu-22.04\home\joel\ProjetScala\src\main\scala\CountingSort.scala
+2023.04.05 19:11:15 WARN  no build target for: \\wsl.localhost\Ubuntu-22.04\home\joel\ProjetScala\src\main\scala\CountingSort.scala
+2023.04.05 19:11:15 WARN  no build target for: \\wsl.localhost\Ubuntu-22.04\home\joel\ProjetScala\src\main\scala\CountingSort.scala
+2023.04.05 19:11:15 WARN  no build target for: \\wsl.localhost\Ubuntu-22.04\home\joel\ProjetScala\src\main\scala\CountingSort.scala
+Apr 05, 2023 7:18:52 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 1216
+2023.04.05 19:18:57 WARN  no build target for: \\wsl.localhost\Ubuntu-22.04\home\joel\ProjetScala\src\main\scala\CountingSort.scala
+2023.04.05 19:21:48 WARN  no build target for: \\wsl.localhost\Ubuntu-22.04\home\joel\ProjetScala\src\main\scala\Main.scala
+2023.04.05 19:21:52 WARN  Using indexes to guess the definition of countingSort
+2023.04.05 19:21:52 WARN  Using indexes to guess the definition of countingSort
+Exception in thread "pool-3-thread-9" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:195)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Unknown Source)
+Exception in thread "pool-3-thread-10" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:195)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Unknown Source)
+2023.04.05 19:22:15 WARN  no build target for: \\wsl.localhost\Ubuntu-22.04\home\joel\ProjetScala\src\main\scala\CountingSort.scala
+2023.04.05 19:22:23 WARN  no build target for: \\wsl.localhost\Ubuntu-22.04\home\joel\ProjetScala\src\main\scala\CountingSort.scala
+Exception in thread "pool-3-thread-11" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:195)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Unknown Source)
+Exception in thread "pool-3-thread-12" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:195)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Unknown Source)
+2023.04.05 19:23:09 WARN  Using indexes to guess the definition of countingSort
+2023.04.05 19:23:09 WARN  Using indexes to guess the definition of countingSort
+2023.04.05 19:24:16 WARN  no build target for: \\wsl.localhost\Ubuntu-22.04\home\joel\ProjetScala\src\main\scala\CountingSort.scala
+2023.04.05 19:25:14 WARN  no build target for: \\wsl.localhost\Ubuntu-22.04\home\joel\ProjetScala\src\main\scala\CountingSort.scala
+2023.04.05 19:27:43 WARN  no build target for: \\wsl.localhost\Ubuntu-22.04\home\joel\ProjetScala\src\main\scala\CountingSort.scala
+Exception in thread "pool-3-thread-13" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:195)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Unknown Source)
+Exception in thread "pool-3-thread-14" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:195)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Unknown Source)
+2023.04.05 19:27:44 WARN  no build target for: \\wsl.localhost\Ubuntu-22.04\home\joel\ProjetScala\src\main\scala\CountingSort.scala
+2023.04.05 19:28:33 WARN  no build target for: \\wsl.localhost\Ubuntu-22.04\home\joel\ProjetScala\src\main\scala\Main.scala
+Exception in thread "pool-3-thread-15" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:195)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Unknown Source)
+Exception in thread "pool-3-thread-16" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:195)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Unknown Source)
+Exception in thread "pool-3-thread-17" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:195)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Unknown Source)
+Exception in thread "pool-3-thread-18" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:195)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Unknown Source)
+2023.04.05 19:31:45 WARN  no build target for: \\wsl.localhost\Ubuntu-22.04\home\joel\ProjetScala\src\main\scala\Main.scala
+2023.04.05 19:32:24 WARN  no build target for: \\wsl.localhost\Ubuntu-22.04\home\joel\ProjetScala\src\main\scala\Main.scala
+2023.04.05 19:32:39 WARN  no build target for: \\wsl.localhost\Ubuntu-22.04\home\joel\ProjetScala\src\main\scala\Main.scala
+2023.04.05 19:34:29 WARN  no build target for: \\wsl.localhost\Ubuntu-22.04\home\joel\ProjetScala\src\main\scala\Main.scala
+2023.04.05 19:36:23 WARN  no build target for: \\wsl.localhost\Ubuntu-22.04\home\joel\ProjetScala\src\main\scala\Main.scala
+Exception in thread "pool-3-thread-19" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:195)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Unknown Source)
+2023.04.05 19:44:53 WARN  no build target for: \\wsl.localhost\Ubuntu-22.04\home\joel\ProjetScala\src\main\scala\Main.scala
+2023.04.05 19:46:12 WARN  no build target for: \\wsl.localhost\Ubuntu-22.04\home\joel\ProjetScala\src\main\scala\Main.scala
+2023.04.05 19:46:52 WARN  no build target for: \\wsl.localhost\Ubuntu-22.04\home\joel\ProjetScala\src\main\scala\Main.scala
+2023.04.05 19:48:02 INFO  time: code lens generation in 2.81s
+2023.04.05 19:49:25 INFO  time: code lens generation in 1.61s
+2023.04.06 18:23:55 INFO  Shutting down server
+2023.04.06 18:23:55 INFO  shutting down Metals
+2023.04.06 18:23:55 INFO  Exiting server
+2023.04.06 18:23:55 ERROR Unexpected error initializing server: 
+org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Request window/showMessageRequest failed with message: Canceled
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleResponse(RemoteEndpoint.java:209)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:193)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.util.concurrent.Executors$RunnableAdapter.call(null)
+	at java.util.concurrent.FutureTask.run(null)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(null)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(null)
+	at java.lang.Thread.run(null)
+
+2023.04.07 15:32:26 INFO  Started: Metals version 0.11.11 in workspace '\\wsl.localhost\Ubuntu-22.04\home\joel\ProjetScala' for client Visual Studio Code 1.77.0.
+SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
+SLF4J: Class path contains SLF4J bindings targeting slf4j-api versions 1.7.x or earlier.
+SLF4J: Ignoring binding found at [jar:file:/C:/Users/User/AppData/Local/Coursier/cache/v1/https/repo1.maven.org/maven2/com/outr/scribe-slf4j_2.13/3.11.0/scribe-slf4j_2.13-3.11.0.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See https://www.slf4j.org/codes.html#ignoredBindings for an explanation.
+2023.04.07 15:32:26 WARN  resetting database: \\wsl.localhost\Ubuntu-22.04\home\joel\ProjetScala\.metals\metals.h2.db
+2023.04.07 15:32:26 ERROR org.flywaydb.core.internal.exception.FlywaySqlException: Unable to obtain connection from database (jdbc:h2:file:\\wsl.localhost\Ubuntu-22.04\home\joel\ProjetScala\.metals\metals;AUTO_SERVER=TRUE) for user 'sa': Fonctionnalité non supportée: "AUTO_SERVER=TRUE && (readOnly || inMemory || FILE_LOCK=NO || FILE_LOCK=FS)"
+Feature not supported: "AUTO_SERVER=TRUE && (readOnly || inMemory || FILE_LOCK=NO || FILE_LOCK=FS)" [50100-214]
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+SQL State  : HYC00
+Error Code : 50100
+Message    : Fonctionnalité non supportée: "AUTO_SERVER=TRUE && (readOnly || inMemory || FILE_LOCK=NO || FILE_LOCK=FS)"
+Feature not supported: "AUTO_SERVER=TRUE && (readOnly || inMemory || FILE_LOCK=NO || FILE_LOCK=FS)" [50100-214]
+
+	at org.flywaydb.core.internal.jdbc.JdbcUtils.openConnection(JdbcUtils.java:60)
+	at org.flywaydb.core.internal.jdbc.JdbcConnectionFactory.<init>(JdbcConnectionFactory.java:74)
+	at org.flywaydb.core.FlywayExecutor.execute(FlywayExecutor.java:140)
+	at org.flywaydb.core.Flyway.clean(Flyway.java:214)
+	at scala.meta.internal.metals.Tables.migrateOrRestart(Tables.scala:156)
+	at scala.meta.internal.metals.Tables.tryUrl(Tables.scala:144)
+	at scala.meta.internal.metals.Tables.persistentConnection(Tables.scala:138)
+	at scala.meta.internal.metals.Tables.tryAutoServer(Tables.scala:81)
+	at scala.meta.internal.metals.Tables.connect(Tables.scala:48)
+	at scala.meta.internal.metals.Tables.connection(Tables.scala:74)
+	at scala.meta.internal.metals.Tables.$anonfun$fingerprints$1(Tables.scala:39)
+	at scala.meta.internal.metals.Fingerprints.load(Fingerprints.scala:52)
+	at scala.meta.internal.metals.MetalsLspService.$anonfun$initialize$2(MetalsLspService.scala:860)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:678)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(null)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(null)
+	at java.lang.Thread.run(null)
+Caused by: org.h2.jdbc.JdbcSQLFeatureNotSupportedException: Fonctionnalité non supportée: "AUTO_SERVER=TRUE && (readOnly || inMemory || FILE_LOCK=NO || FILE_LOCK=FS)"
+Feature not supported: "AUTO_SERVER=TRUE && (readOnly || inMemory || FILE_LOCK=NO || FILE_LOCK=FS)" [50100-214]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:556)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:477)
+	at org.h2.message.DbException.get(DbException.java:223)
+	at org.h2.message.DbException.get(DbException.java:199)
+	at org.h2.message.DbException.getUnsupportedException(DbException.java:287)
+	at org.h2.engine.Database.<init>(Database.java:304)
+	at org.h2.engine.Engine.openSession(Engine.java:92)
+	at org.h2.engine.Engine.openSession(Engine.java:222)
+	at org.h2.engine.Engine.createSession(Engine.java:201)
+	at org.h2.engine.SessionRemote.connectEmbeddedOrServer(SessionRemote.java:338)
+	at org.h2.jdbc.JdbcConnection.<init>(JdbcConnection.java:122)
+	at org.h2.Driver.connect(Driver.java:59)
+	at org.flywaydb.core.internal.jdbc.DriverDataSource.getConnectionFromDriver(DriverDataSource.java:258)
+	at org.flywaydb.core.internal.jdbc.DriverDataSource.getConnection(DriverDataSource.java:223)
+	at org.flywaydb.core.internal.jdbc.JdbcUtils.openConnection(JdbcUtils.java:48)
+	at org.flywaydb.core.internal.jdbc.JdbcConnectionFactory.<init>(JdbcConnectionFactory.java:74)
+	at org.flywaydb.core.FlywayExecutor.execute(FlywayExecutor.java:140)
+	at org.flywaydb.core.Flyway.clean(Flyway.java:214)
+	at scala.meta.internal.metals.Tables.migrateOrRestart(Tables.scala:156)
+	at scala.meta.internal.metals.Tables.tryUrl(Tables.scala:144)
+	at scala.meta.internal.metals.Tables.persistentConnection(Tables.scala:138)
+	at scala.meta.internal.metals.Tables.tryAutoServer(Tables.scala:81)
+	at scala.meta.internal.metals.Tables.connect(Tables.scala:48)
+	at scala.meta.internal.metals.Tables.connection(Tables.scala:74)
+	at scala.meta.internal.metals.Tables.$anonfun$fingerprints$1(Tables.scala:39)
+	at scala.meta.internal.metals.Fingerprints.load(Fingerprints.scala:52)
+	at scala.meta.internal.metals.MetalsLspService.$anonfun$initialize$2(MetalsLspService.scala:860)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:678)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(null)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(null)
+	at java.lang.Thread.run(null)
+
+2023.04.07 15:32:26 WARN  resetting database: \\wsl.localhost\Ubuntu-22.04\home\joel\ProjetScala\.metals\metals.h2.db
+2023.04.07 15:32:26 ERROR unable to setup persistent H2 database with AUTO_SERVER=false, falling back to in-memory database. This means you may be redundantly asked to execute 'Import build', even if it's not needed. Also, code navigation will not work for existing files in the .metals/readonly/ directory. To fix this problem, make sure you only have one running Metals server in the directory '\\wsl.localhost\Ubuntu-22.04\home\joel\ProjetScala'.
+org.flywaydb.core.internal.exception.FlywaySqlException: Unable to obtain connection from database (jdbc:h2:file:\\wsl.localhost\Ubuntu-22.04\home\joel\ProjetScala\.metals\metals;AUTO_SERVER=TRUE) for user 'sa': Fonctionnalité non supportée: "AUTO_SERVER=TRUE && (readOnly || inMemory || FILE_LOCK=NO || FILE_LOCK=FS)"
+Feature not supported: "AUTO_SERVER=TRUE && (readOnly || inMemory || FILE_LOCK=NO || FILE_LOCK=FS)" [50100-214]
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+SQL State  : HYC00
+Error Code : 50100
+Message    : Fonctionnalité non supportée: "AUTO_SERVER=TRUE && (readOnly || inMemory || FILE_LOCK=NO || FILE_LOCK=FS)"
+Feature not supported: "AUTO_SERVER=TRUE && (readOnly || inMemory || FILE_LOCK=NO || FILE_LOCK=FS)" [50100-214]
+
+	at org.flywaydb.core.internal.jdbc.JdbcUtils.openConnection(JdbcUtils.java:60)
+	at org.flywaydb.core.internal.jdbc.JdbcConnectionFactory.<init>(JdbcConnectionFactory.java:74)
+	at org.flywaydb.core.FlywayExecutor.execute(FlywayExecutor.java:140)
+	at org.flywaydb.core.Flyway.clean(Flyway.java:214)
+	at scala.meta.internal.metals.Tables.migrateOrRestart(Tables.scala:156)
+	at scala.meta.internal.metals.Tables.tryUrl(Tables.scala:144)
+	at scala.meta.internal.metals.Tables.persistentConnection(Tables.scala:138)
+	at scala.meta.internal.metals.Tables.tryNoAutoServer(Tables.scala:98)
+	at scala.meta.internal.metals.Tables.tryAutoServer(Tables.scala:92)
+	at scala.meta.internal.metals.Tables.connect(Tables.scala:48)
+	at scala.meta.internal.metals.Tables.connection(Tables.scala:74)
+	at scala.meta.internal.metals.Tables.$anonfun$fingerprints$1(Tables.scala:39)
+	at scala.meta.internal.metals.Fingerprints.load(Fingerprints.scala:52)
+	at scala.meta.internal.metals.MetalsLspService.$anonfun$initialize$2(MetalsLspService.scala:860)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:678)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(null)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(null)
+	at java.lang.Thread.run(null)
+Caused by: org.h2.jdbc.JdbcSQLFeatureNotSupportedException: Fonctionnalité non supportée: "AUTO_SERVER=TRUE && (readOnly || inMemory || FILE_LOCK=NO || FILE_LOCK=FS)"
+Feature not supported: "AUTO_SERVER=TRUE && (readOnly || inMemory || FILE_LOCK=NO || FILE_LOCK=FS)" [50100-214]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:556)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:477)
+	at org.h2.message.DbException.get(DbException.java:223)
+	at org.h2.message.DbException.get(DbException.java:199)
+	at org.h2.message.DbException.getUnsupportedException(DbException.java:287)
+	at org.h2.engine.Database.<init>(Database.java:304)
+	at org.h2.engine.Engine.openSession(Engine.java:92)
+	at org.h2.engine.Engine.openSession(Engine.java:222)
+	at org.h2.engine.Engine.createSession(Engine.java:201)
+	at org.h2.engine.SessionRemote.connectEmbeddedOrServer(SessionRemote.java:338)
+	at org.h2.jdbc.JdbcConnection.<init>(JdbcConnection.java:122)
+	at org.h2.Driver.connect(Driver.java:59)
+	at org.flywaydb.core.internal.jdbc.DriverDataSource.getConnectionFromDriver(DriverDataSource.java:258)
+	at org.flywaydb.core.internal.jdbc.DriverDataSource.getConnection(DriverDataSource.java:223)
+	at org.flywaydb.core.internal.jdbc.JdbcUtils.openConnection(JdbcUtils.java:48)
+	at org.flywaydb.core.internal.jdbc.JdbcConnectionFactory.<init>(JdbcConnectionFactory.java:74)
+	at org.flywaydb.core.FlywayExecutor.execute(FlywayExecutor.java:140)
+	at org.flywaydb.core.Flyway.clean(Flyway.java:214)
+	at scala.meta.internal.metals.Tables.migrateOrRestart(Tables.scala:156)
+	at scala.meta.internal.metals.Tables.tryUrl(Tables.scala:144)
+	at scala.meta.internal.metals.Tables.persistentConnection(Tables.scala:138)
+	at scala.meta.internal.metals.Tables.tryNoAutoServer(Tables.scala:98)
+	at scala.meta.internal.metals.Tables.tryAutoServer(Tables.scala:92)
+	at scala.meta.internal.metals.Tables.connect(Tables.scala:48)
+	at scala.meta.internal.metals.Tables.connection(Tables.scala:74)
+	at scala.meta.internal.metals.Tables.$anonfun$fingerprints$1(Tables.scala:39)
+	at scala.meta.internal.metals.Fingerprints.load(Fingerprints.scala:52)
+	at scala.meta.internal.metals.MetalsLspService.$anonfun$initialize$2(MetalsLspService.scala:860)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:678)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(null)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(null)
+	at java.lang.Thread.run(null)
+
+2023.04.07 15:32:26 INFO  time: initialize in 0.35s
+2023.04.07 15:32:29 WARN  Build server is not auto-connectable.
+Apr 07, 2023 3:32:29 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFOS: Unsupported notification method: $/setTrace
+2023.04.07 15:32:41 WARN  no build target for: \\wsl.localhost\Ubuntu-22.04\home\joel\ProjetScala\src\main\scala\Main.scala
+2023.04.07 15:32:47 INFO  no build target found for \\wsl.localhost\Ubuntu-22.04\home\joel\ProjetScala\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.2.2
+2023.04.07 15:32:49 INFO  time: code lens generation in 7.4s
+2023.04.07 15:33:11 WARN  no build target for: \\wsl.localhost\Ubuntu-22.04\home\joel\ProjetScala\src\main\scala\countRDD.scala
+2023.04.07 15:33:26 WARN  no build target for: \\wsl.localhost\Ubuntu-22.04\home\joel\ProjetScala\src\main\scala\RadixScala.scala
+2023.04.07 15:33:31 WARN  no build target for: \\wsl.localhost\Ubuntu-22.04\home\joel\ProjetScala\src\main\scala\countRDD.scala
+2023.04.07 15:33:39 WARN  no build target for: \\wsl.localhost\Ubuntu-22.04\home\joel\ProjetScala\src\main\scala\countRDD.scala
+2023.04.07 15:33:41 WARN  no build target for: \\wsl.localhost\Ubuntu-22.04\home\joel\ProjetScala\src\main\scala\Main.scala
+Apr 07, 2023 3:34:52 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 60
+2023.04.07 15:34:55 WARN  no build target for: \\wsl.localhost\Ubuntu-22.04\home\joel\ProjetScala\src\main\scala\CountingSort.scala
+2023.04.07 15:35:07 WARN  no build target for: \\wsl.localhost\Ubuntu-22.04\home\joel\ProjetScala\src\main\scala\CountingSort.scala
+2023.04.07 15:48:45 WARN  no build target for: \\wsl.localhost\Ubuntu-22.04\home\joel\ProjetScala\src\main\scala\RadixScala.scala
+2023.04.07 15:48:53 WARN  no build target for: \\wsl.localhost\Ubuntu-22.04\home\joel\ProjetScala\src\main\scala\RadixScala.scala
+2023.04.07 15:48:55 WARN  no build target for: \\wsl.localhost\Ubuntu-22.04\home\joel\ProjetScala\src\main\scala\RadixScala.scala
+2023.04.07 15:48:55 WARN  no build target for: \\wsl.localhost\Ubuntu-22.04\home\joel\ProjetScala\src\main\scala\RadixScala.scala
+2023.04.07 15:52:01 WARN  no build target for: \\wsl.localhost\Ubuntu-22.04\home\joel\ProjetScala\src\main\scala\CountingSort.scala
+2023.04.07 15:52:01 WARN  no build target for: \\wsl.localhost\Ubuntu-22.04\home\joel\ProjetScala\src\main\scala\CountingSort.scala
+2023.04.07 15:52:40 WARN  no build target for: \\wsl.localhost\Ubuntu-22.04\home\joel\ProjetScala\src\main\scala\Main.scala
+Exception in thread "pool-3-thread-1" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:195)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Unknown Source)
+Exception in thread "pool-3-thread-2" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:195)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Unknown Source)
+2023.04.07 15:54:17 WARN  no build target for: \\wsl.localhost\Ubuntu-22.04\home\joel\ProjetScala\src\main\scala\Main.scala
+2023.04.07 15:56:12 WARN  no build target for: \\wsl.localhost\Ubuntu-22.04\home\joel\ProjetScala\src\main\scala\RadixScala.scala
+2023.04.07 15:56:39 WARN  no build target for: \\wsl.localhost\Ubuntu-22.04\home\joel\ProjetScala\src\main\scala\RadixScala.scala
+2023.04.07 15:57:25 WARN  no build target for: \\wsl.localhost\Ubuntu-22.04\home\joel\ProjetScala\src\main\scala\RadixScala.scala
+2023.04.07 15:58:11 WARN  no build target for: \\wsl.localhost\Ubuntu-22.04\home\joel\ProjetScala\src\main\scala\Main.scala
+Apr 07, 2023 4:00:01 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 836
+2023.04.07 16:01:09 WARN  no build target for: \\wsl.localhost\Ubuntu-22.04\home\joel\ProjetScala\src\main\scala\RadixScala.scala
+2023.04.07 16:03:54 WARN  no build target for: \\wsl.localhost\Ubuntu-22.04\home\joel\ProjetScala\src\main\scala\Main.scala
+2023.04.07 16:05:03 WARN  no build target for: \\wsl.localhost\Ubuntu-22.04\home\joel\ProjetScala\src\main\scala\RadixScala.scala
+2023.04.07 16:06:06 WARN  no build target for: \\wsl.localhost\Ubuntu-22.04\home\joel\ProjetScala\src\main\scala\Main.scala
+2023.04.07 16:19:28 WARN  no build target for: \\wsl.localhost\Ubuntu-22.04\home\joel\ProjetScala\src\main\scala\RadixScala.scala
+2023.04.07 16:20:45 WARN  no build target for: \\wsl.localhost\Ubuntu-22.04\home\joel\ProjetScala\src\main\scala\Main.scala
+Exception in thread "pool-3-thread-3" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:195)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Unknown Source)
+2023.04.07 16:21:07 WARN  no build target for: \\wsl.localhost\Ubuntu-22.04\home\joel\ProjetScala\src\main\scala\RadixScala.scala
+Exception in thread "pool-3-thread-4" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:195)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Unknown Source)
+Exception in thread "pool-3-thread-5" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:195)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Unknown Source)
+2023.04.07 16:21:11 WARN  no build target for: \\wsl.localhost\Ubuntu-22.04\home\joel\ProjetScala\src\main\scala\Main.scala
+2023.04.07 16:25:31 WARN  no build target for: \\wsl.localhost\Ubuntu-22.04\home\joel\ProjetScala\src\main\scala\RadixScala.scala
+2023.04.07 16:26:52 WARN  no build target for: \\wsl.localhost\Ubuntu-22.04\home\joel\ProjetScala\src\main\scala\RadixScala.scala
+2023.04.07 16:30:30 WARN  no build target for: \\wsl.localhost\Ubuntu-22.04\home\joel\ProjetScala\src\main\scala\RadixScala.scala
+2023.04.07 16:32:28 WARN  no build target for: \\wsl.localhost\Ubuntu-22.04\home\joel\ProjetScala\src\main\scala\RadixScala.scala
+2023.04.07 16:33:09 WARN  no build target for: \\wsl.localhost\Ubuntu-22.04\home\joel\ProjetScala\build.sbt
+2023.04.07 16:34:12 WARN  no build target for: \\wsl.localhost\Ubuntu-22.04\home\joel\ProjetScala\src\main\scala\Main.scala
+2023.04.07 16:35:44 WARN  no build target for: \\wsl.localhost\Ubuntu-22.04\home\joel\ProjetScala\src\main\scala\RadixScala.scala
+2023.04.07 16:36:11 WARN  no build target for: \\wsl.localhost\Ubuntu-22.04\home\joel\ProjetScala\src\main\scala\RadixScala.scala
+2023.04.07 16:36:13 WARN  no build target for: \\wsl.localhost\Ubuntu-22.04\home\joel\ProjetScala\src\main\scala\RadixScala.scala
+2023.04.07 16:38:00 WARN  no build target for: \\wsl.localhost\Ubuntu-22.04\home\joel\ProjetScala\src\main\scala\Main.scala
+2023.04.07 16:43:19 WARN  no build target for: \\wsl.localhost\Ubuntu-22.04\home\joel\ProjetScala\src\main\scala\RadixScala.scala
+2023.04.07 16:43:19 WARN  no build target for: \\wsl.localhost\Ubuntu-22.04\home\joel\ProjetScala\src\main\scala\RadixScala.scala
+2023.04.07 16:43:19 WARN  no build target for: \\wsl.localhost\Ubuntu-22.04\home\joel\ProjetScala\src\main\scala\RadixScala.scala
+Exception in thread "pool-3-thread-6" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:195)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Unknown Source)
+2023.04.07 16:43:19 WARN  no build target for: \\wsl.localhost\Ubuntu-22.04\home\joel\ProjetScala\src\main\scala\RadixScala.scala
+2023.04.07 16:43:19 WARN  no build target for: \\wsl.localhost\Ubuntu-22.04\home\joel\ProjetScala\src\main\scala\RadixScala.scala
+Apr 07, 2023 4:43:23 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 1936
+2023.04.07 16:43:26 WARN  no build target for: \\wsl.localhost\Ubuntu-22.04\home\joel\ProjetScala\src\main\scala\RadixScala.scala
+2023.04.07 16:44:13 WARN  no build target for: \\wsl.localhost\Ubuntu-22.04\home\joel\ProjetScala\src\main\scala\RadixScala.scala
+2023.04.07 16:46:17 WARN  no build target for: \\wsl.localhost\Ubuntu-22.04\home\joel\ProjetScala\src\main\scala\CountingSort.scala
+2023.04.07 16:47:06 WARN  no build target for: \\wsl.localhost\Ubuntu-22.04\home\joel\ProjetScala\src\main\scala\RadixScala.scala
+2023.04.07 16:48:08 WARN  no build target for: \\wsl.localhost\Ubuntu-22.04\home\joel\ProjetScala\src\main\scala\RadixScala.scala
+2023.04.07 16:51:00 WARN  no build target for: \\wsl.localhost\Ubuntu-22.04\home\joel\ProjetScala\src\main\scala\RadixScala.scala
+2023.04.07 16:51:31 WARN  no build target for: \\wsl.localhost\Ubuntu-22.04\home\joel\ProjetScala\src\main\scala\RadixScala.scala
+2023.04.07 16:53:32 WARN  no build target for: \\wsl.localhost\Ubuntu-22.04\home\joel\ProjetScala\src\main\scala\Main.scala
+2023.04.07 16:56:26 WARN  no build target for: \\wsl.localhost\Ubuntu-22.04\home\joel\ProjetScala\src\main\scala\Main.scala
+Apr 07, 2023 5:00:06 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 2294
+2023.04.07 17:00:55 WARN  no build target for: \\wsl.localhost\Ubuntu-22.04\home\joel\ProjetScala\src\main\scala\RadixRDD.scala
+2023.04.07 17:01:02 WARN  no build target for: \\wsl.localhost\Ubuntu-22.04\home\joel\ProjetScala\src\main\scala\RadixRDD.scala
+2023.04.07 17:01:42 WARN  no build target for: \\wsl.localhost\Ubuntu-22.04\home\joel\ProjetScala\src\main\scala\RadixRDD.scala
+2023.04.07 17:01:47 WARN  no build target for: \\wsl.localhost\Ubuntu-22.04\home\joel\ProjetScala\src\main\scala\RadixRDD.scala
+2023.04.07 17:01:56 WARN  no build target for: \\wsl.localhost\Ubuntu-22.04\home\joel\ProjetScala\build.sbt
+2023.04.07 17:02:48 WARN  no build target for: \\wsl.localhost\Ubuntu-22.04\home\joel\ProjetScala\src\main\scala\RadixRDD.scala
+Apr 07, 2023 5:02:50 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 2499
+Apr 07, 2023 5:02:58 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 2533
+Apr 07, 2023 5:02:59 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 2537
+2023.04.07 17:03:20 WARN  no build target for: \\wsl.localhost\Ubuntu-22.04\home\joel\ProjetScala\src\main\scala\Main.scala
+2023.04.07 17:09:22 WARN  no build target for: \\wsl.localhost\Ubuntu-22.04\home\joel\ProjetScala\src\main\scala\CountingSort.scala
+2023.04.07 17:09:37 WARN  no build target for: \\wsl.localhost\Ubuntu-22.04\home\joel\ProjetScala\src\main\scala\countRDD.scala
+2023.04.07 17:09:59 WARN  no build target for: \\wsl.localhost\Ubuntu-22.04\home\joel\ProjetScala\src\main\scala\CountingSort.scala
+Apr 07, 2023 5:09:59 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 2794
+2023.04.07 17:09:59 WARN  no build target for: \\wsl.localhost\Ubuntu-22.04\home\joel\ProjetScala\src\main\scala\CountingSort.scala
+Apr 07, 2023 5:10:04 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 2816
+Apr 07, 2023 5:10:10 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 2845
+Exception in thread "pool-3-thread-7" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:195)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Unknown Source)
+Exception in thread "pool-3-thread-8" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:195)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Unknown Source)
+Exception in thread "pool-3-thread-9" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:195)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Unknown Source)
+Exception in thread "pool-3-thread-10" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:195)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Unknown Source)
+2023.04.07 17:10:49 WARN  no build target for: \\wsl.localhost\Ubuntu-22.04\home\joel\ProjetScala\src\main\scala\Main.scala
+Exception in thread "pool-3-thread-11" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:195)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Unknown Source)
+Exception in thread "pool-3-thread-12" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:195)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Unknown Source)
+Exception in thread "pool-3-thread-13" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:195)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Unknown Source)
+2023.04.07 17:12:01 WARN  no build target for: \\wsl.localhost\Ubuntu-22.04\home\joel\ProjetScala\src\main\scala\countRDD.scala
+2023.04.07 17:12:03 WARN  no build target for: \\wsl.localhost\Ubuntu-22.04\home\joel\ProjetScala\src\main\scala\CountingSort.scala
+Exception in thread "pool-3-thread-14" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:195)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Unknown Source)
+2023.04.07 17:12:05 WARN  no build target for: \\wsl.localhost\Ubuntu-22.04\home\joel\ProjetScala\src\main\scala\Main.scala
+2023.04.07 17:13:32 WARN  no build target for: \\wsl.localhost\Ubuntu-22.04\home\joel\ProjetScala\build.sbt
+2023.04.07 17:13:35 WARN  no build target for: \\wsl.localhost\Ubuntu-22.04\home\joel\ProjetScala\build.sbt
+2023.04.07 17:14:16 WARN  no build target for: \\wsl.localhost\Ubuntu-22.04\home\joel\ProjetScala\build.sbt
+2023.04.07 17:15:06 WARN  no build target for: \\wsl.localhost\Ubuntu-22.04\home\joel\ProjetScala\src\main\scala\Main.scala
+Apr 07, 2023 5:16:10 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 3114
+2023.04.07 17:16:15 WARN  no build target for: \\wsl.localhost\Ubuntu-22.04\home\joel\ProjetScala\src\main\scala\countRDD.scala
+2023.04.07 17:16:40 WARN  no build target for: \\wsl.localhost\Ubuntu-22.04\home\joel\ProjetScala\src\main\scala\countRDD.scala
+Exception in thread "pool-3-thread-15" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:195)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Unknown Source)
+Apr 07, 2023 5:17:26 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 3203
+2023.04.07 17:17:28 WARN  no build target for: \\wsl.localhost\Ubuntu-22.04\home\joel\ProjetScala\src\main\scala\countRDD.scala
+2023.04.07 17:18:42 WARN  no build target for: \\wsl.localhost\Ubuntu-22.04\home\joel\ProjetScala\src\main\scala\countRDD.scala
+Apr 07, 2023 5:20:45 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFOS: Unsupported notification method: $/setTrace
+2023.04.07 17:21:08 WARN  no build target for: \\wsl.localhost\Ubuntu-22.04\home\joel\ProjetScala\src\main\scala\countRDD.scala
+Apr 07, 2023 5:21:40 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 3308
+Apr 07, 2023 5:22:35 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification
+AVERTISSEMENT: Notification threw an exception: {
+  "jsonrpc": "2.0",
+  "method": "metals/didFocusTextDocument",
+  "params": [
+    "git://wsl.localhost/Ubuntu-22.04/home/joel/ProjetScala/src/main/scala/Main.scala?%7B%22path%22%3A%22%5C%5C%5C%5Cwsl.localhost%5C%5CUbuntu-22.04%5C%5Chome%5C%5Cjoel%5C%5CProjetScala%5C%5Csrc%5C%5Cmain%5C%5Cscala%5C%5CMain.scala%22%2C%22ref%22%3A%22~%22%7D"
+  ]
+}
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:67)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:152)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:220)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:187)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.reflect.InvocationTargetException
+	at jdk.internal.reflect.GeneratedMethodAccessor16.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	... 11 more
+Caused by: java.nio.file.FileSystemNotFoundException: Provider "git" not installed
+	at java.base/java.nio.file.Path.of(Unknown Source)
+	at java.base/java.nio.file.Paths.get(Unknown Source)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionURIMtags.toAbsolutePath(MtagsEnrichments.scala:120)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.toAbsolutePath(MtagsEnrichments.scala:173)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:609)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:606)
+	at scala.meta.internal.metals.MetalsLspService.didFocus(MetalsLspService.scala:1173)
+	at scala.meta.metals.lsp.DelegatingScalaService.didFocus(DelegatingScalaService.scala:43)
+	... 15 more
+
+Apr 07, 2023 5:22:52 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification
+AVERTISSEMENT: Notification threw an exception: {
+  "jsonrpc": "2.0",
+  "method": "metals/didFocusTextDocument",
+  "params": [
+    "git://wsl.localhost/Ubuntu-22.04/home/joel/ProjetScala/src/main/scala/Main.scala?%7B%22path%22%3A%22%5C%5C%5C%5Cwsl.localhost%5C%5CUbuntu-22.04%5C%5Chome%5C%5Cjoel%5C%5CProjetScala%5C%5Csrc%5C%5Cmain%5C%5Cscala%5C%5CMain.scala%22%2C%22ref%22%3A%22~%22%7D"
+  ]
+}
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:67)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:152)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:220)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:187)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.reflect.InvocationTargetException
+	at jdk.internal.reflect.GeneratedMethodAccessor16.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	... 11 more
+Caused by: java.nio.file.FileSystemNotFoundException: Provider "git" not installed
+	at java.base/java.nio.file.Path.of(Unknown Source)
+	at java.base/java.nio.file.Paths.get(Unknown Source)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionURIMtags.toAbsolutePath(MtagsEnrichments.scala:120)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.toAbsolutePath(MtagsEnrichments.scala:173)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:609)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:606)
+	at scala.meta.internal.metals.MetalsLspService.didFocus(MetalsLspService.scala:1173)
+	at scala.meta.metals.lsp.DelegatingScalaService.didFocus(DelegatingScalaService.scala:43)
+	... 15 more
+
+2023.04.07 17:23:25 WARN  no build target for: \\wsl.localhost\Ubuntu-22.04\home\joel\ProjetScala\src\main\scala\countRDD.scala
+2023.04.07 17:23:41 WARN  no build target for: \\wsl.localhost\Ubuntu-22.04\home\joel\ProjetScala\src\main\scala\countRDD.scala
+2023.04.07 17:23:46 WARN  no build target for: \\wsl.localhost\Ubuntu-22.04\home\joel\ProjetScala\src\main\scala\countRDD.scala
+2023.04.07 17:24:46 WARN  no build target for: \\wsl.localhost\Ubuntu-22.04\home\joel\ProjetScala\src\main\scala\countRDD.scala
+2023.04.07 17:25:09 WARN  no build target for: \\wsl.localhost\Ubuntu-22.04\home\joel\ProjetScala\src\main\scala\countRDD.scala
+2023.04.07 17:26:44 WARN  no build target for: \\wsl.localhost\Ubuntu-22.04\home\joel\ProjetScala\src\main\scala\Main.scala
+2023.04.07 17:29:30 WARN  no build target for: \\wsl.localhost\Ubuntu-22.04\home\joel\ProjetScala\src\main\scala\Main.scala
+2023.04.07 17:30:06 WARN  no build target for: \\wsl.localhost\Ubuntu-22.04\home\joel\ProjetScala\src\main\scala\Main.scala
+2023.04.07 17:31:05 WARN  no build target for: \\wsl.localhost\Ubuntu-22.04\home\joel\ProjetScala\src\main\scala\Main.scala
+Apr 08, 2023 5:02:24 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 4003
+Exception in thread "pool-3-thread-16" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:195)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Unknown Source)
+2023.04.08 21:26:02 WARN  no build target for: \\wsl.localhost\Ubuntu-22.04\home\joel\ProjetScala\src\main\scala\RadixRDD.scala
+Apr 08, 2023 9:26:02 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 4030
+2023.04.08 21:26:02 WARN  no build target for: \\wsl.localhost\Ubuntu-22.04\home\joel\ProjetScala\src\main\scala\RadixRDD.scala
+2023.04.08 21:26:02 WARN  no build target for: \\wsl.localhost\Ubuntu-22.04\home\joel\ProjetScala\src\main\scala\RadixRDD.scala
+2023.04.08 21:26:02 WARN  no build target for: \\wsl.localhost\Ubuntu-22.04\home\joel\ProjetScala\src\main\scala\RadixRDD.scala
+2023.04.08 21:26:03 WARN  no build target for: \\wsl.localhost\Ubuntu-22.04\home\joel\ProjetScala\src\main\scala\RadixRDD.scala
+Exception in thread "pool-3-thread-17" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:195)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Unknown Source)
